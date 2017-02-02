@@ -1,5 +1,5 @@
 {
-    "name": "sergeil/configs-generator",
+    "name": "sergeil/configs-compiler",
     "type": "library",
     "license": "MIT",
     "authors": [
