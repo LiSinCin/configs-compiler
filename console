@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+ <?php
+ /**
+  * @author    Alex Plaksin <alex.plaksin@modera.net>
+  * @copyright 2017 Modera Foundation
+  */
+ set_time_limit(0);
+ require __DIR__.'/vendor/autoload.php';
+
+ use \Symfony\Component\Console\Input\ArgvInput;
+ use Sli\ConfigsCompiler\Application;
+
+ /**
+  * Will wrap existing files later
+  */
+
+ $input = new ArgvInput();
+ $application = new Application();
+
+ $application->run($input);

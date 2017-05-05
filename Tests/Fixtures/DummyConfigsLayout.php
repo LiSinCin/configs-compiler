@@ -28,7 +28,7 @@ class DummyConfigsLayout
              $this->dir => array(
                 'firewall.yml' => <<<YML
 intercept:
-    allowed_hosts: {{ array_property('stock_endpoints')|join(',') }}
+    allowed_hosts: {{ array_property('stock_endpoints', null, 'Firewall.yml prop')|join(',') }}
 YML
                 ,
                 'stock.yml' => <<<YML

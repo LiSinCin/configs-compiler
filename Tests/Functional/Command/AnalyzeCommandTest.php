@@ -29,9 +29,10 @@ class AnalyzeCommandTest extends \PHPUnit_Framework_TestCase
 +--------------------+---------------+--------------------------------------+--------------------+
 | Name               | Default value | Description                          | Declared in & Line |
 +--------------------+---------------+--------------------------------------+--------------------+
-| stock_endpoints    |               | API URLs to use to push orders data  | firewall.yml:2     |
+| stock_endpoints    |               | Firewall.yml prop                    | firewall.yml:2     |
 | stock_api_username |               | Username used to authenticate to API | stock.yml:3        |
 | stock_api_password |               | Password used to authenticate to API | stock.yml:4        |
+| stock_endpoints    |               | API URLs to use to push orders data  | stock.yml:6
 | image_resizer_lib  | gd            |                                      | thumbnails.yml:2   |
 +--------------------+---------------+--------------------------------------+--------------------+
 
